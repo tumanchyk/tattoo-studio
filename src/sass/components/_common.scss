@@ -1,0 +1,50 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+$white-color: #ffffff;
+$black-color: #000000;
+$accent-color: 
+#E2051B;
+$icon-grey: #C4C4C4;
+$desk-background: rgba(98, 91, 91, 0.75);
+$card-background: #453F3F;
+$dark-background: #201F1F;
+$bg-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+$light-red: #F96161;
+
+ 
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+margin: 0;
+padding: 0;
+}
+img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+width: 1230px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+a {
+    text-decoration: none;
+}
