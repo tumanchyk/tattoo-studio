@@ -1,0 +1,91 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 45px;
+  background-color: rgba(98, 91, 91, 0.75);
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 88px;
+  margin-right: 63px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.nav__link {
+  display: inline-block;
+  color: #ffffff;
+}
+.nav__link:hover {
+  color: #E2051B;
+}
+
+.lang__list {
+  border-color: aqua;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.lang__item {
+  text-decoration: underline;
+}
+.lang__item + .lang__item {
+  margin-left: 20px;
+}
+.lang__item.curr {
+  color: #E2051B;
+}/*# sourceMappingURL=index.css.map */
